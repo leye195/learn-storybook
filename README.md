@@ -76,15 +76,15 @@ export default buttonObject;
 
 `.stories.js` 파일에는 한 컴포넌트에 관련된 모든 `stories` 를 정의해 줄 수 있으며 각 story 는 sidebar의 item으로 반영이 되며 클릭 할 경우 Canvas에 보여지게 된다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/02002bbd-fcb6-48a3-8bc6-cb2c2c23b2c5/_2020-11-21__11.33.57.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/02002bbd-fcb6-48a3-8bc6-cb2c2c23b2c5/_2020-11-21__11.33.57.png)
+<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/02002bbd-fcb6-48a3-8bc6-cb2c2c23b2c5/_2020-11-21__11.33.57.png"/>
 
 ### Toolbar
 
 storybook에는 내부적으로 아래와 같은 편리한 툴들을 제공하고 있다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d65fd01-abc6-4d0e-acbb-ffeb2ba31492/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d65fd01-abc6-4d0e-acbb-ffeb2ba31492/Untitled.png)
+<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d65fd01-abc6-4d0e-acbb-ffeb2ba31492/Untitled.png"/>
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0aad7e26-24a0-449c-8924-76ce437e4332/_2020-11-21__11.37.38.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0aad7e26-24a0-449c-8924-76ce437e4332/_2020-11-21__11.37.38.png)
+<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0aad7e26-24a0-449c-8924-76ce437e4332/_2020-11-21__11.37.38.png">
 
 - 🔍 Zooming visually scales the component so you can check the details.
 - 🖼 Background changes the rendered background behind your component so you can verify how your component renders in different visual contexts.
