@@ -1,0 +1,32 @@
+.color-size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px black;
+  text-align: center;
+}
+
+.color-size:first-child {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.color-size:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.color-size-lg {
+  height: 200px;
+}
+
+.color-size-md {
+  height: 150px;
+}
+
+.color-size-sm {
+  height: 100px;
+}

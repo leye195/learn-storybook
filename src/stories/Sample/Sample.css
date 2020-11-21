@@ -1,0 +1,21 @@
+.sample-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.button-sm {
+  width: 100px;
+  height: 50px;
+}
+
+.button-md {
+  width: 150px;
+  height: 100px;
+}
+
+.button-lg {
+  width: 200px;
+  height: 150px;
+}

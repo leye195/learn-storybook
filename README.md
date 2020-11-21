@@ -223,3 +223,41 @@ export const ManyItems = (args) => (
 
 // const Template = (args) => <List {...args}/>
 ```
+
+**Loaders**
+
+loader는 story 와 decorator에 데이터를 불러오게 해주는 비동기 함수이며, story의 loader는 story render가 진행되기 전에 실행된다. 불러온 데이터는 render context를 통해 story로 들어온다.
+
+```
+//TodoItem.stories.js
+
+import React from 'react';
+import axios from 'axios';
+import {TodoItem} from './TodoItem';
+
+export const Primary = (args, {loaded:{todo}}) => <TodoItem {...args} {...todo}/>
+Primary.loaders = [
+	async () => ({
+		todo: (await axios.get(``))
+	})
+];
+// story context에 있는 loaded 필드를 통해 데이터를 받아올수 있다.
+```
+
+**global loaders**
+
+.storybook/preview.js 에서 모든 story에 사용가능한 loader를 설정해 줄 수 도 있다.
+
+```
+// .storybook/preview.js
+
+import React from 'react';
+import fetch from 'node-fetch';
+
+export const loaders = [
+  async () => ({
+    currentUser: (await fetch('https://jsonplaceholder.typicode.com/users/1')).json(),
+  }),
+];
+// loaded.currentUser 로 데이터에 접근 가능
+```

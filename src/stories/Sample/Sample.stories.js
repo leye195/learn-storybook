@@ -3,7 +3,7 @@ import {Sample} from './Sample';
 
 
 const sampleObject = {
-    title: 'Sample',
+    title: 'Samples/Sample',
     component: Sample,
     parameters: {
         backgrounds: {
@@ -20,16 +20,17 @@ const sampleObject = {
 
 const Template = (args) => <Sample {...args}/>
 
-export const SampleComponent = Template.bind({});
-SampleComponent.args = {
+export const SampleButton = Template.bind({});
+SampleButton.args = {
     backgroundColor: '#aac',
     label: 'First',
 }
 
-export const SecondSample = Template.bind({});
-SecondSample.args = {
+export const SecondSampleButton = Template.bind({});
+SecondSampleButton.args = {
     backgroundColor: '#ff0',
-    label:'Second'
+    label:'Second',
+    color:'black'
 }
 
 
