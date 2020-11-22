@@ -84,7 +84,8 @@ storybook에는 내부적으로 아래와 같은 편리한 툴들을 제공하�
 
 <img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d65fd01-abc6-4d0e-acbb-ffeb2ba31492/Untitled.png"/>
 
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0aad7e26-24a0-449c-8924-76ce437e4332/_2020-11-21__11.37.38.png">
+<img src="">
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0aad7e26-24a0-449c-8924-76ce437e4332/_2020-11-21__11.37.38.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0aad7e26-24a0-449c-8924-76ce437e4332/_2020-11-21__11.37.38.png)
 
 - 🔍 Zooming visually scales the component so you can check the details.
 - 🖼 Background changes the rendered background behind your component so you can verify how your component renders in different visual contexts.
